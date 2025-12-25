@@ -90,10 +90,6 @@ body {
     min-width: 320px;
     line-height: 1.4;
     color: var(--color-tiny);
-    background: url("../../public/bg.png") var(--color-white);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     overflow-x: hidden;
     scroll-behavior: smooth;
