@@ -18,4 +18,16 @@
     --color-block-secondary: #E9F2FF;
     --color-block: #EDEFF6;
     --color-border: #D0E3FF;
+
+    --color-ok-block: #d1f2eb;
+    --color-ok-text: var(--color-tiny);
+    --color-ok-tiny: rgba(0, 214, 153, 0.15);
+    --color-ok-accent: #00d699;;
+    --color-ok-shadow: 0 3px 8px 0 rgba(20, 27, 52, 0.04);
+
+    --color-danger-block: #f0dfe2;
+    --color-danger-text: var(--color-tiny);
+    --color-danger-tiny:  rgba(207, 87, 93, 0.15);
+    --color-danger-accent: #cf575d;
+    --color-danger-shadow: 0 3px 8px 0 rgba(20, 27, 52, 0.04);
 }
