@@ -114,12 +114,11 @@
       <nav class="nav">
         <img src="../public/logo-header.svg" width="189" height="48" />
         <div class="nav-menu">
-          <a>О нас</a>
-          <a>Решения</a>
-          <a>Продукт</a>
-          <a>Преимущества</a>
-          <a>Кейсы</a>
-          <a>Партнерство</a>
+          <a href="#about">О нас</a>
+          <a href="#solution">Решения</a>
+          <a href="#product">Продукт</a>
+          <a href="#fav">Преимущества</a>
+          <a href="#contact">Контакты</a>
         </div>
         <a class="nav-link" href="mailto:pvo26@bk.ru">Связаться</a>
       </nav>
@@ -142,42 +141,35 @@
             itemscope=""
             itemtype="http://schema.org/ItemList"
           >
-            <a itemprop="url" href="#what">О нас</a>
+            <a itemprop="url" href="#about">О нас</a>
           </li>
           <li
             itemprop="itemListElement"
             itemscope=""
             itemtype="http://schema.org/ItemList"
           >
-            <a itemprop="url" href="#product">Решения</a>
+            <a itemprop="url" href="#solution">Решения</a>
           </li>
           <li
             itemprop="itemListElement"
             itemscope=""
             itemtype="http://schema.org/ItemList"
           >
-            <a itemprop="url" href="#clients">Продукт</a>
+            <a itemprop="url" href="#product">Продукт</a>
           </li>
           <li
             itemprop="itemListElement"
             itemscope=""
             itemtype="http://schema.org/ItemList"
           >
-            <a itemprop="url" href="#footer">Преимущества</a>
+            <a itemprop="url" href="#fav">Преимущества</a>
           </li>
           <li
             itemprop="itemListElement"
             itemscope=""
             itemtype="http://schema.org/ItemList"
           >
-            <a itemprop="url" href="#footer">Кейсы</a>
-          </li>
-          <li
-            itemprop="itemListElement"
-            itemscope=""
-            itemtype="http://schema.org/ItemList"
-          >
-            <a itemprop="url" href="#footer">Партнерство</a>
+            <a itemprop="url" href="#contact">Контакты</a>
           </li>
         </menu>
       </section>
@@ -197,7 +189,11 @@
             </p>
 
             <div class="header-hero">
-              <img src="../public/client.png" class="wow zoomIn" data-wow-delay="0.4s" />
+              <img
+                src="../public/client.png"
+                class="wow zoomIn"
+                data-wow-delay="0.4s"
+              />
 
               <div
                 class="hero-card hero-card-1 wow zoomIn"
@@ -217,11 +213,11 @@
             </div>
           </section>
 
-          <section class="section-about">
+          <section class="section-about" id="about">
             <div class="about-block wow fadeInUp">
               <div class="section-title">
                 <div class="section-title-icon">
-                  <i class="ti ti-users"></i>
+                  <img src="../public/tabler-icon-users.svg" />
                 </div>
                 о нас
               </div>
@@ -262,12 +258,14 @@
             </div>
           </section>
 
-          <section class="section-product">
+          <section class="section-product" id="solution">
             <div
               class="section-header section-header-glob-product wow fadeInUp"
             >
               <div class="section-title">
-                <div class="section-title-icon"><i class="ti ti-bulb"></i></div>
+                <div class="section-title-icon">
+                  <img src="../public/tabler-icon-bulb.svg" />
+                </div>
                 решения
               </div>
               <div class="section-title-text">
@@ -319,7 +317,7 @@
                 <div class="product-items">
                   <div class="product-title">
                     <div class="product-title-icon">
-                      <i class="ti ti-check"></i>
+                      <img src="../public/square-check.svg" />
                     </div>
                     Наше решение
                   </div>
@@ -347,11 +345,11 @@
             </div>
           </section>
 
-          <section class="section-product">
+          <section class="section-product" id="product">
             <div class="section-header wow fadeInUp">
               <div class="section-title">
                 <div class="section-title-icon">
-                  <i class="ti ti-device-imac"></i>
+                  <img src="../public/tabler-icon-device-imac.svg" />
                 </div>
                 продукт
               </div>
@@ -439,10 +437,10 @@
             </div>
           </section>
 
-          <section class="section-fav">
+          <section class="section-fav" id="fav">
             <div class="section-header wow fadeInUp">
               <div class="section-title">
-                <div class="section-title-icon"><i class="ti ti-star"></i></div>
+                <div class="section-title-icon"><img src="../public/tabler-icon-carambola.svg" /></div>
                 преимущества
               </div>
               <div class="section-title-text">
@@ -484,7 +482,7 @@
             </div>
           </section>
 
-          <section class="section-contact wow fadeInUp">
+          <section class="section-contact wow fadeInUp" id="contact">
             <div>
               <div class="contact-title">
                 Ваша отчетность снова отнимает выходные?
@@ -505,12 +503,11 @@
               <div class="footer-menu wow fadeInUp">
                 <div class="footer-menu-title">(для клиентов)</div>
                 <div class="footer-menu-item">
-                  <a>О нас</a>
-                  <a>Решения</a>
-                  <a>Продукт</a>
-                  <a>Преимущества</a>
-                  <a>Кейсы</a>
-                  <a>Партнерство</a>
+                  <a href="#about">О нас</a>
+                  <a href="#solution">Решения</a>
+                  <a href="#product">Продукт</a>
+                  <a href="#fav">Преимущества</a>
+                  <a href="#contact">Контакты</a>
                 </div>
               </div>
               <div class="footer-menu">
@@ -529,9 +526,7 @@
               «Студенческий стартап» федерального проекта «Платформа
               университетского технологического предпринимательства»
             </div>
-            <div class="footer-copy">
-              ООО «Платформа Возможностей» © 2025
-            </div>
+            <div class="footer-copy">ООО «Платформа Возможностей» © 2025</div>
           </section>
         </div>
       </div>
