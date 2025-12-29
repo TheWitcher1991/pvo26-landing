@@ -2,5 +2,5 @@ User-Agent: *
 Allow: /
 Allow: /*
 
-Host: https://
-Sitemap: https:///sitemap.xml
+Host: https://pvo26.ru
+Sitemap: https://pvo26.ru/sitemap.xml
