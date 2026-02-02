@@ -89,7 +89,7 @@ body {
     -webkit-text-size-adjust: 100%;
     min-width: 320px;
     line-height: 1.4;
-    color: var(--color-tiny);
+    color: var(--color-base-brand);
     position: relative;
     overflow-x: hidden;
     scroll-behavior: smooth;

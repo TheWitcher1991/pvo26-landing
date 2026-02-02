@@ -1,7 +1,7 @@
 :root {
-    --font-text: 'Onest', sans-serif;
-    --font-title: 'Gotham', sans-serif;
-    --font: normal 16px var(--font-text);
+    --font-base: 'Etude Noire', sans-serif;
+    --font-plain: 'Zodiak', sans-serif;
+    --font: normal 16px var(--font-base);
 }
 
 :root {
@@ -9,26 +9,18 @@
 }
 
 :root {
+    --color-bg: #FFF5E9;
     --color-white: #ffffff;
-    --color-blacked: #171717;
-    --color-black: #2D2D2D;
-    --color-text: #2D2D2D;
-    --color-accent: #3384FF;
-    --color-accent-2: #0076f6;
-    --color-tiny: #747474;
-    --color-block-secondary: #E9F2FF;
-    --color-block: #EDEFF6;
-    --color-border: #D0E3FF;
+    --color-bold-brand: #5f3e31;
+    --color-base-brand: #774e3d;
+    --color-second-brand: #c79673;
+    --color-tiny: rgba(119, 78, 61, 0.6);
+    --color-head: rgba(199, 150, 115, 0.5);
 
-    --color-ok-block: #d1f2eb;
-    --color-ok-text: var(--color-tiny);
-    --color-ok-tiny: rgba(0, 214, 153, 0.15);
-    --color-ok-accent: #00d699;;
-    --color-ok-shadow: 0 3px 8px 0 rgba(20, 27, 52, 0.04);
+    --color-stgau: #e6a459;
 
-    --color-danger-block: #f0dfe2;
-    --color-danger-text: var(--color-tiny);
-    --color-danger-tiny:  rgba(207, 87, 93, 0.15);
-    --color-danger-accent: #cf575d;
-    --color-danger-shadow: 0 3px 8px 0 rgba(20, 27, 52, 0.04);
+    --color-block: #f2d6c2;
+    --color-success: #22b83d;
+
+    --chip-box-shadow: box-shadow: 0 2px 35px 0 rgba(15, 199, 48, 0.7);
 }
